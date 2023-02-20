@@ -1,0 +1,36 @@
+.header{
+    background: #edf3ff;
+    position: relative;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background: #fff;
+        box-shadow: 0 3px 59px #00000026;
+    }
+    &-inner {
+        position: relative;
+        .nav-header.right {
+          position: absolute;
+          margin-top: 40px;
+        }
+        .wrap-nav-list .menu {
+          display: flex;
+          justify-content: end;
+          .nav-list {
+            font-size: 14px;
+            line-height: 100%;
+            padding: 0 15px;
+            a{
+              display: inline-block;
+              padding: 40px 0px;
+              font-weight: 700;
+              transition: all .3s ease-in-out;
+              &:hover{
+                  color: #1e5ee5;
+              }
+            }
+          }
+        }
+      }
+      
+}

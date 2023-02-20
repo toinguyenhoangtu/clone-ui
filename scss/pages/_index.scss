@@ -1,0 +1,39 @@
+.ss-banner {
+  background: #edf3ff;
+  padding: 70px 0;
+  .ss--title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .ss--subtitle {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .ss-form {
+    margin: auto;
+    width: 40%;
+    position: relative;
+    padding-top: 20px;
+    input {
+      background: #fff;
+      width: 100%;
+      border: 2px solid;
+      padding: 20px;
+      border-color: #f26822;
+      border-radius: 80px;
+      position: absolute;
+      box-shadow: 4px 6px #00000026;
+    }
+    button.btn-submit{
+        position: absolute;
+        padding: 20px;
+        right: 0;
+        border-radius: 0 80px 80px 0;
+        background: #f26822;
+        border-color: #f26822;
+        color: #fff;
+    }
+  }
+}
